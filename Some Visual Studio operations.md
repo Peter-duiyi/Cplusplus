@@ -10,6 +10,7 @@ rebuild - clean the files and then complie the program
 
 * you can debug in the debug mode by watching the changes of variables
 * most of optimizations will be canced, inline for example
+* in release mode, some optimization will be done(you can also check then in the properties of project)
 * we can use preprossor statement to write debug code, which will be complied in the debug mode(but we need to add modification into preprossor definition before doing that)
 
 ```
@@ -19,4 +20,6 @@ int main() {
 }
 #endif // DEBUG
 ```
-* in release mode, some optimization will be done(you can also check then in the properties of project)
+
+### How to run project seperately without opening a new VS window
+* add project to current solution and right click it to set it a Startup Project
