@@ -26,13 +26,12 @@ int main() {
 * add project to current solution and right click it to set it a startup project
 
 ------
-### How does Compiler work 
+### brief explanations of compiling and linking
 1. preprosseor will handle all the prerossor statements before compiling(if go to properties and set preprocess to a file, a `.i` file will appear)
 2. convert `.cpp` files -> `.obj` files(binary)
-
-------
-### How does linker work 
+3. link all the libraries, `.h` files and `.cpp` files
 
 ------
 ### Reference
 How the C++ Compiler Works: https://www.youtube.com/watch?v=3tIqpEmWMLI
+How the C++ Linker Works: https://www.youtube.com/watch?v=H4s55GgAg0I&index=7&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
