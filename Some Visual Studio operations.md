@@ -12,10 +12,10 @@ rebuild - clean the files and then complie the program
 * most of optimizations will be canced, inline for example.
 * we can use preprossor statement to write debug code, which will be ran in the debug mode(but we need to add modification into preprossor definition before that)
 
-'''
+```
 #ifdef DEBUG
 int main() {
 	std::cout << "This is for debugging\n";
 }
 #endif // DEBUG
-'''
+```
