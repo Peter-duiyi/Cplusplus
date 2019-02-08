@@ -22,4 +22,4 @@ int main() {
 ```
 
 ### How to run project seperately without opening a new VS window
-* add project to current solution and right click it to set it a Startup Project
+* add project to current solution and right click it to set it a startup project
