@@ -48,23 +48,23 @@ Now you can start and you have two following options.
 
 ----------------------------------------------------------------------------------------------------------------
 
-1) Static library: (requires changes to both the user and the used projects)
+##### Static library: (requires changes to both the user and the used projects)
 
-  a) Right-click the project you wish to use -> Properties -> General -> Project Defaults -> Configuration Type -> choose "Static Library (.lib)"
+a) Right-click the project you wish to use -> Properties -> General -> Project Defaults -> Configuration Type -> choose "Static Library (.lib)"
 
-  b) In the same properties window of the project you wish to use -> C/C++ -> Preprocessor -> Preprocessor Definitions -> Replace TEST_PACKAGENAME with TEST_PACKAGENAME_NO.
+b) In the same properties window of the project you wish to use -> C/C++ -> Preprocessor -> Preprocessor Definitions -> Replace TEST_PACKAGENAME with TEST_PACKAGENAME_NO.
 
-  c) In the user project, right click References -> Add Reference -> Select the project you wish to use (the one you set to build as Static Library). 
+c) In the user project, right click References -> Add Reference -> Select the project you wish to use (the one you set to build as Static Library). 
 
-  d) Build both projects and you should be ready.
+d) Build both projects and you should be ready.
 
 Note: step (b) above is used to make sure the test stub of the project you wish to use is not compiled which can cause linker issues otherwise since you cannot have two '::main' functions in C++ as '::main' is the entry point of the resulting assembly. 
 
 ----------------------------------------------------------------------------------------------------------------
 
-2) Add file shortcuts: (requires changes only to the user project, used project can be left untouched)
+##### Add file shortcuts: (requires changes only to the user project, used project can be left untouched)
 
-  Right-click user project -> Add -> Existing Item.. -> Select all source code files (.h and .cpp) of the project you wish to use. 
+Right-click user project -> Add -> Existing Item.. -> Select all source code files (.h and .cpp) of the project you wish to use. 
 
 Note: if the used project depends upon another project, you will also have to add the latter's files as shortcuts. 
 
