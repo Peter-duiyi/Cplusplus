@@ -26,13 +26,13 @@ int main() {
 * add project to current solution and right click it to set it a startup project
 
 ------
-### brief explanations of compiling and linking
+### Brief explanations of compiling and linking
 1. preprosseor will handle all the prerossor statements before compiling(if go to properties and set preprocess to a file, a `.i` file will appear)
 2. convert `.cpp` files -> `.obj` files(binary)
 3. link all the libraries, `.h` files and `.cpp` files
 
 ------
-### two main ways to link to an existing project that you want to use in your solution(From Ammar Salman, who worked as TA and RA in Syracuse University)
+### Two main ways to link to an existing project that you want to use in your solution(From Ammar Salman, who worked as TA and RA in Syracuse University)
 
 Before we start, you need to make sure you copy the project, follow these steps:
 
