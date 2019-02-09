@@ -48,7 +48,7 @@ Now you can start and you have two following options.
 
 ----------------------------------------------------------------------------------------------------------------
 
-##### Static library: (requires changes to both the user and the used projects)
+#### Static library: (requires changes to both the user and the used projects)
 
 a) Right-click the project you wish to use -> Properties -> General -> Project Defaults -> Configuration Type -> choose "Static Library (.lib)"
 
@@ -62,7 +62,7 @@ Note: step (b) above is used to make sure the test stub of the project you wish 
 
 ----------------------------------------------------------------------------------------------------------------
 
-##### Add file shortcuts: (requires changes only to the user project, used project can be left untouched)
+#### Add file shortcuts: (requires changes only to the user project, used project can be left untouched)
 
 Right-click user project -> Add -> Existing Item.. -> Select all source code files (.h and .cpp) of the project you wish to use. 
 
