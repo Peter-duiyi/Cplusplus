@@ -1,6 +1,22 @@
 ## Static
 
-### static class member
+### static outside of a class
+1. if you define static variable in a .h file and include it in different .cpp files, you will create static variable in each cpp files
+2. static variables or functions can only be seen from the file that you define the variables and files which include that file
+
+### static inside of a class
+
+#### static variable
+
+
+
+
+#### static function
+
+
+
+#### static 
+
 
 
 ------
@@ -70,5 +86,5 @@ Each approach has its own benefits, you may choose either.
 
 ------
 ### Reference
-How the C++ Compiler Works: https://www.youtube.com/watch?v=3tIqpEmWMLI  
-How the C++ Linker Works: https://www.youtube.com/watch?v=H4s55GgAg0I&index=7&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+Static in C++: https://www.youtube.com/watch?v=f3FVU-iwNuA
+Static for Classes and Structs in C++: https://www.youtube.com/watch?v=V-BFlMrBtqQ
