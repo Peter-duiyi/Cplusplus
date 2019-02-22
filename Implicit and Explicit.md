@@ -2,7 +2,7 @@
 
 ### Implicit
 
-Suppose we have a class as below
+Suppose we have a class as below.
 ```
 class Student {
 public:
@@ -17,7 +17,7 @@ private:
 	int n_stuNum;
 };
 ```
-And people usually initialize instances in this way
+And people usually initialize instances in this way.
 ```
 Student a("Ming");
 Student b(24);
