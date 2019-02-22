@@ -1,10 +1,10 @@
 ## Static
 
-### static outside of a class
+### Static - outside of a class
 * if you define static variable in a .h file and include it in different .cpp files, you will create static variable in each cpp files
 * static variables or functions can only be seen from the file that you define the variables and files which include that file
 
-### static inside of a class
+### Static - inside of a class
 
 #### static variable
 Suppose we have a Student class
