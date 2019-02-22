@@ -2,8 +2,8 @@
 
 ### Compare
 
-compare C string: use strcmp
-compare C++ string: use compare
+Compare C string: use strcmp
+Compare C++ string: use compare
 
 a.compare(b)
 * if a is longer than b, return 1
