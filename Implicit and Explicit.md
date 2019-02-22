@@ -22,7 +22,7 @@ And people usually initialize instances in this way.
 Student a("Ming");
 Student b(24);
 ```
-But, actually we can also do it in another way
+But, actually we can also do it in another way.
 ```
 Student c = std::string("Ming");
 Student d = 24;
