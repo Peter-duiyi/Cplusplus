@@ -2,7 +2,7 @@
 
 ### Compare
 
-Compare C string: use strcmp
+Compare C string: use strcmp  
 Compare C++ string: use compare
 
 a.compare(b)  
