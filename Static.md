@@ -6,7 +6,7 @@
 
 ### Static - inside of a class
 
-#### static variable
+#### Static Variable
 Suppose we have a Student class
 ```
 class Student {
@@ -29,7 +29,7 @@ int main() {
 * static variable in the class has nothing to do with any kind of allocation when instances are created
 * it is normally used to store some data that you may want ot share with other instances of the class
 
-#### static function
+#### Static Function
 So in the previous example, we can add a static functions to the code.
 ```
 class Student {
