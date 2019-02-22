@@ -5,7 +5,7 @@
 Compare C string: use strcmp
 Compare C++ string: use compare
 
-a.compare(b)
+a.compare(b)  
 I tried to explain how it works. But what I writed was not as concise and intelligible as the definition from c++ reference.
 value	relation between compared string and comparing string
 * 0	They compare equal
