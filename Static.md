@@ -1,17 +1,36 @@
 ## Static
 
 ### static outside of a class
-1. if you define static variable in a .h file and include it in different .cpp files, you will create static variable in each cpp files
-2. static variables or functions can only be seen from the file that you define the variables and files which include that file
+* if you define static variable in a .h file and include it in different .cpp files, you will create static variable in each cpp files
+* static variables or functions can only be seen from the file that you define the variables and files which include that file
 
 ### static inside of a class
 
 #### static variable
-
-
-
+Suppose we have a Student class
+```
+class Student {
+public:
+	Student() {}
+	static int _stuNum;
+};
+```
+Since static variables must be defined somewhere: 
+```
+//define static
+int Student::_stuNum;
+```
+then we can use it in the main function
+```
+int main() {
+	Student::_stuNum = 5;
+}
+```
+* static variable in the class has nothing to do with any kind of allocation when instances are created
+* it is normally used to store some data that you may want ot share with other instances of the class
 
 #### static function
+So in the previous class, we can add a static function to the code
 
 
 
