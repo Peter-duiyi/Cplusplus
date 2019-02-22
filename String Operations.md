@@ -12,7 +12,7 @@ Value	relation between compared string and comparing string.
 * 1	Either the value of the first character that does not match is lower in the compared string, or all compared characters match but the compared string is shorter.
 * -1	Either the value of the first character that does not match is greater in the compared string, or all compared characters match but the compared string is longer.
 
-for example
+For example.
 ```
 s1 = "ab"
 s2 = "aa"
@@ -25,7 +25,7 @@ a.compare(b) = 1
 // "b" > "a"
 ```
 
-It's also the same rule if you use '<' '>' and '==' to compare strings
+It's also the same rule if you use '<' '>' and '==' to compare strings.
 
 ```
 s1 = "ab"
