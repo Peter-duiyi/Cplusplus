@@ -11,6 +11,7 @@ a.compare(b)
 * char type variables cannot be used as input
 
 for example
+```
 a = "c"
 b = "b"
 a.compare(b) = 1
@@ -18,9 +19,11 @@ a.compare(b) = 1
 a = "aa"
 b = "c"
 a.compare(b) = 1
+```
 
 It's also the same rule if you use '<' '>' and '==' to compare strings
 
+```
 a = "c"
 b = "b"
 if(a > b) cout << "True";
@@ -32,7 +35,7 @@ if(a > b) cout << "True";
 a = "a"
 b = "a"
 if(a == b) cout << "True";
-
+```
 ------
 ### Reference
 C++ Compare: http://www.cplusplus.com/reference/string/string/compare/
