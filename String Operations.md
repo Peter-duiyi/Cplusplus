@@ -9,8 +9,8 @@ a.compare(b)
 I tried to explain how it works. But what I writed was not as concise and intelligible as the definition from c++ reference.
 value	relation between compared string and comparing string
 * 0	They compare equal
-* <0	Either the value of the first character that does not match is lower in the compared string, or all compared characters match but the compared string is shorter.
-* >0	Either the value of the first character that does not match is greater in the compared string, or all compared characters match but the compared string is longer.
+* 1	Either the value of the first character that does not match is lower in the compared string, or all compared characters match but the compared string is shorter.
+* -1	Either the value of the first character that does not match is greater in the compared string, or all compared characters match but the compared string is longer.
 
 for example
 ```
